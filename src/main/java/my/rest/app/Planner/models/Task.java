@@ -17,8 +17,7 @@ public class Task {
         this.date = date;
     }
 
-    public Task() {
-    }
+    public Task() {}
 
     @Id
     @Column(name = "id")
